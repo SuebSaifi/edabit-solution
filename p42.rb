@@ -1,0 +1,12 @@
+def cube_diagonal(volume)
+	sqrt = Math.cbrt(volume)
+    sqrt1= Math.sqrt(3)
+    p (sqrt*sqrt1).round(2)
+end
+cube_diagonal(8)#, 3.46)
+cube_diagonal(343)#, 12.12)
+cube_diagonal(1157.625)#, 18.19)
+cube_diagonal(12)#, 3.97)
+cube_diagonal(1)#, 1.73)
+cube_diagonal(48)#, 6.29)
+cube_diagonal(1728)#, 20.78)
